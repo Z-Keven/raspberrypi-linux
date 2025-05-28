@@ -110,7 +110,7 @@
 
 rp1_target: &pcie2 {
 	aspm-no-l0s;
-	status = "okay";
+	status = "disabled";
 };
 
 // The system SPI for the bootloader EEPROM
